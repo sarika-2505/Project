@@ -79,7 +79,7 @@ const RecentWork = () => {
     <>
     <div className='my-10 ' id='RecentWork'>
     <h1 className='text-center font-bold text-4xl text-gray-700 my-3'>Recent Work</h1>
-    <ul className='flex flex-wrap item-center justify-center gap-5 mt-5'>
+    <ul className='flex flex-wrap item-center justify-center mb-2 gap-5 mt-5'>
         {projects.length > 0 &&
         projects.map((project)=>{
             return(
